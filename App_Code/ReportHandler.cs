@@ -24,7 +24,6 @@ public class ReportHandler : System.Web.Routing.IRouteHandler
 
             try
             {
-                //string _APIToken = "d151e9ecfaedbb7796e0caa50edfd6af";
                 string _APIToken = null;
                 if (context.Request.Headers["API_TOKEN"] != null)
                 {
